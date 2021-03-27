@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+
+
+
+
+
+
+
+
+route::get('page/{nomor}', function($nomor){
+	return 'Ini Halaman ke-' . $nomor;
 });
